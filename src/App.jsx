@@ -4,14 +4,18 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import About from "./Screens/About";
 import Contacts from './Screens/Contacts';
+import RegisterScreen from './Screens/Register';
+import Register from './Screens/Register';
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <About/>
-      <Contacts/>
+      {/* <About/> */}
+      {/* <Contacts/>
+      <About/> */}
+      <Register/>
     </>
   )
 }
