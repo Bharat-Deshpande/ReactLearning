@@ -6,7 +6,7 @@ import About from "./Screens/About";
 import Contacts from './Screens/Contacts';
 import RegisterScreen from './Screens/Register';
 import Register from './Screens/Register';
-
+import UserList from './Screens/UserList';
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -15,7 +15,8 @@ function App() {
       {/* <About/> */}
       {/* <Contacts/>
       <About/> */}
-      <Register/>
+      {/* <Register/> */}
+      <UserList/>
     </>
   )
 }
